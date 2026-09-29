@@ -1,0 +1,10 @@
+node_modules/
+.cache/
+.venv/
+work/
+.ipynb_checkpoints/
+__pycache__/
+.playwright-cli/
+output/browser-suite.txt
+output/notebook-execution.txt
+output/verification/*.png

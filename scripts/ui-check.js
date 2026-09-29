@@ -1,0 +1,17 @@
+async (page) => {
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));
+ await page.setViewportSize({width:1440,height:1000});await page.goto('http://127.0.0.1:8770/',{waitUntil:'networkidle'});
+ const ids=await page.evaluate(()=>window.clipLab.experiments.map(x=>x.id));
+ for(const id of ids){await page.evaluate(id=>location.hash=id,id);await page.waitForFunction(id=>window.clipLab.current.id===id,id);await page.click('#recorded');await page.waitForFunction(id=>window.lastClipResult?.experiment.id===id,id);}
+ await page.screenshot({path:'output/verification/app-style.png',fullPage:true});
+ await page.evaluate(()=>location.hash='hat');await page.waitForFunction(()=>window.clipLab.current.id==='hat');await page.selectOption('#second','portrait');await page.click('#run');const same=(await page.locator('#status').innerText()).includes('different images');
+ await page.click('#reset');await page.fill('#candidates','');await page.click('#run');const empty=(await page.locator('#status').innerText()).includes('2–12');
+ await page.click('#reset');await page.fill('#candidates','tree\ncat');await page.click('#recorded');await page.waitForFunction(()=>document.querySelector('#status').textContent.includes('original example'));
+ await page.setViewportSize({width:390,height:844});let overflow=[];for(const id of ids){await page.evaluate(id=>location.hash=id,id);await page.waitForFunction(id=>window.clipLab.current.id===id,id);if(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth))overflow.push(id);}
+ await page.evaluate(()=>location.hash='chimney');await page.waitForFunction(()=>window.clipLab.current.id==='chimney');await page.screenshot({path:'output/verification/app-phone.png',fullPage:true});
+ await page.goto('http://127.0.0.1:8770/training.html');await page.selectOption('#stage','after');const after=await page.locator('#scores').innerText();await page.selectOption('#stage','before');const before=await page.locator('#scores').innerText();const trainChanges=before!==after;
+ const trainOverflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);await page.screenshot({path:'output/verification/training-phone.png',fullPage:true});
+ await page.goto('http://127.0.0.1:8770/sources.html');const sourceOverflow=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth);
+ await page.setViewportSize({width:1440,height:1000});await page.goto('http://127.0.0.1:8770/#hat');await page.waitForFunction(()=>window.clipLab);await page.click('#recorded');await page.screenshot({path:'output/verification/app-hat.png',fullPage:true});
+ return {recordedPresets:ids.length,sameImageError:same,emptyCandidatesError:empty,staleRecordingError:true,phoneOverflow:overflow,trainingChanges:trainChanges,trainingOverflow:trainOverflow,sourceOverflow,errors};
+}

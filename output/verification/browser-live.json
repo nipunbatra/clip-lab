@@ -1,0 +1,37 @@
+{
+  "results": [
+    {
+      "label": "a photo of a dog",
+      "cosine": 0.2675817522627175,
+      "share": 0.9932887342028608
+    },
+    {
+      "label": "a photo of a bird",
+      "cosine": 0.21208156277286253,
+      "share": 0.0038612943163369067
+    },
+    {
+      "label": "a photo of a cat",
+      "cosine": 0.20904462822396316,
+      "share": 0.0028499714808022563
+    }
+  ],
+  "runtime": "Live browser inference · WebAssembly · q8",
+  "experiment": {
+    "id": "labels",
+    "title": "Write a new classifier",
+    "short": "New labels",
+    "mode": "classify",
+    "image": "newfoundland",
+    "candidates": [
+      "a photo of a dog",
+      "a photo of a cat",
+      "a photo of a bird"
+    ],
+    "question": "Can the same photograph answer a question the old classifier head never had a label for?",
+    "try": "Replace these with Newfoundland, pug, and Persian. Then try indoors and outdoors.",
+    "lesson": "The description supplies a comparison vector. Changing the candidates does not train or replace the image encoder.",
+    "sourceLabel": "CLIP · Radford et al., ICML 2021",
+    "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
+  }
+}

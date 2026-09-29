@@ -1,0 +1,86 @@
+[
+  {
+    "file": "Persian_98.jpg",
+    "sha256": "6071d201543c999e063615d6c2cc674ea004adb11711d34d29d3df11c0012292",
+    "source": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+    "credit": "Oxford-IIIT Pet, original image owners; Parkhi et al. CC BY-SA 4.0. Same bytes as Vision I."
+  },
+  {
+    "file": "astronaut.jpg",
+    "sha256": "011901a3f9084e22497e2b27642b44a39e8965c4c2febc5ddf2c3ccf298c8787",
+    "source": "https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.astronaut",
+    "credit": "NASA photograph of Eileen Collins. Public domain, via scikit-image data; exported JPEG quality 95."
+  },
+  {
+    "file": "chelsea.jpg",
+    "sha256": "e8605ae62ddd946bef56bba73435937edcab675f8ef20cdcee29fdbf2d94045f",
+    "source": "https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.chelsea",
+    "credit": "Stefan van der Walt. CC0. Exported from scikit-image data, JPEG quality 95."
+  },
+  {
+    "file": "chest-xray.png",
+    "sha256": "a43431b089a6dfab031c10eceef6c821e4f326913bf9015f73f4a1f0446d2be1",
+    "source": "https://commons.wikimedia.org/wiki/File:Chest_Xray_PA_3-8-2010.png",
+    "credit": "Stillwaterising, Wikimedia Commons, CC0 1.0. Public chest radiograph; no diagnostic label is inferred by this lab."
+  },
+  {
+    "file": "chimney-pair.png",
+    "sha256": "f35861c0baefc390eddefc8f89dfd8b1763fe672ab6b45e1bec4d818e49fb99c",
+    "source": "generated-prompts.md",
+    "credit": "Generated for this lesson with the built-in OpenAI image tool on 29 September 2026. Synthetic, not a real person, site survey or patient. See the prompt record."
+  },
+  {
+    "file": "coffee.jpg",
+    "sha256": "80e2b46bbd310f215a6381ceac2ef7a403c23874ec48b3637cd74177e31ed4ea",
+    "source": "https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.coffee",
+    "credit": "Rachel Michetti, courtesy of Pikolo Espresso Bar. CC0. Exported from scikit-image data, JPEG quality 95."
+  },
+  {
+    "file": "device-pair.png",
+    "sha256": "cd11838de4b84b2cb1a4deaa961b63c863b76f5f9426385392900fd8bf85b9ae",
+    "source": "generated-prompts.md",
+    "credit": "Generated for this lesson with the built-in OpenAI image tool on 29 September 2026. Synthetic, not a real person, site survey or patient. See the prompt record."
+  },
+  {
+    "file": "hat-pair.png",
+    "sha256": "0d93aef405f2f5759ecc9b4eb6f1def641943856e5239b2a34c0ce8439dfad61",
+    "source": "generated-prompts.md",
+    "credit": "Generated for this lesson with the built-in OpenAI image tool on 29 September 2026. Synthetic, not a real person, site survey or patient. See the prompt record."
+  },
+  {
+    "file": "mug-pair.png",
+    "sha256": "ae23ae4a7d653d86614ddb40ec875a597623ec4293a256e202bd6b9d027b4e62",
+    "source": "generated-prompts.md",
+    "credit": "Generated for this lesson with the built-in OpenAI image tool on 29 September 2026. Synthetic, not a real person, site survey or patient. See the prompt record."
+  },
+  {
+    "file": "newfoundland_31.jpg",
+    "sha256": "617dc6f6dcd26c69303b54985eadd5c75bc07b8ba22cdb1ea511307096098d0a",
+    "source": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+    "credit": "Oxford-IIIT Pet, original image owners; Parkhi, Vedaldi, Zisserman and Jawahar. Distributed via timm/oxford-iiit-pet, revision 089695c834a7deb60505b7cc506672db1c31a6aa. CC BY-SA 4.0. Same bytes as Vision I."
+  },
+  {
+    "file": "photo-sketch-pair.png",
+    "sha256": "9f6a7205d8a898e44fc92419907bee2ade76b23929502561c8b2c5ec9827af06",
+    "source": "generated-prompts.md",
+    "credit": "Generated for this lesson with the built-in OpenAI image tool on 29 September 2026. Synthetic, not a real person, site survey or patient. See the prompt record."
+  },
+  {
+    "file": "pug_57.jpg",
+    "sha256": "c3ffdc25566ae138be7d76121c7225fba6879568739338b240b60d97181d2609",
+    "source": "https://www.robots.ox.ac.uk/~vgg/data/pets/",
+    "credit": "Oxford-IIIT Pet, original image owners; Parkhi et al. CC BY-SA 4.0. Same bytes as Vision I."
+  },
+  {
+    "file": "remote-sensing-scenes.png",
+    "sha256": "339b88e2e24d20626c26359460f4850cb0ddcf6b78d4609c796a274076692480",
+    "source": "generated-prompts.md",
+    "credit": "Generated for this lesson with the built-in OpenAI image tool on 29 September 2026. Synthetic, not a real person, site survey or patient. See the prompt record."
+  },
+  {
+    "file": "rocket.jpg",
+    "sha256": "2d3d62a61bf417fd93253df812c357b86fdfcd50d74b4280ae252455fe7064db",
+    "source": "https://www.flickr.com/photos/spacexphotos/16511594820/",
+    "credit": "SpaceX DSCOVR launch. Public domain, via scikit-image data; exported JPEG quality 95."
+  }
+]

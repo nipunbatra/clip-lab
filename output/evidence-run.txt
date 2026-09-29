@@ -1,0 +1,173 @@
+
+> clip-lab@1.0.0 evidence
+> node scripts/evidence.mjs
+
+Loaded tokenizer_config.json
+Loaded tokenizer.json
+Loaded preprocessor_config.json
+Loaded config.json
+Loaded onnx/text_model_quantized.onnx
+Loaded config.json
+Loaded onnx/vision_model_quantized.onnx
+Encoded newfoundland
+Encoded Persian
+Encoded pug
+Encoded coffee
+Encoded rocket
+Encoded astronaut
+Encoded chelsea
+Encoded portrait
+Encoded portrait-hat
+Encoded red-mug
+Encoded blue-mug
+Encoded kiln
+Encoded solar
+Encoded fields
+Encoded warehouse
+Encoded retriever-photo
+Encoded retriever-sketch
+Encoded chest-xray
+Encoded kiln-base
+Encoded kiln-chimney
+Encoded xray-before
+Encoded xray-device
+labels [
+  { label: 'a photo of a dog', cosine: 0.2723166165063376 },
+  { label: 'a photo of a bird', cosine: 0.21837550593732247 },
+  { label: 'a photo of a cat', cosine: 0.21517554381336884 }
+]
+attributes [
+  { label: 'a cup of coffee', cosine: 0.2819571053147392 },
+  { label: 'a cup of tea', cosine: 0.2522316936225484 },
+  { label: 'a glass of orange juice', cosine: 0.23983180303622606 },
+  { label: 'a bowl of soup', cosine: 0.22583460310247377 }
+]
+search [
+  { label: 'red-mug', cosine: 0.2558921357859536 },
+  { label: 'blue-mug', cosine: 0.2512117880882092 },
+  { label: 'coffee', cosine: 0.24129027178661627 },
+  { label: 'Persian', cosine: 0.21261685174668865 },
+  { label: 'xray-device', cosine: 0.20923227169964298 },
+  { label: 'xray-before', cosine: 0.2004913527512965 },
+  { label: 'chest-xray', cosine: 0.2002404602371829 },
+  { label: 'newfoundland', cosine: 0.2000773291302848 },
+  { label: 'chelsea', cosine: 0.19667113864245928 },
+  { label: 'pug', cosine: 0.1942501339217316 },
+  { label: 'portrait-hat', cosine: 0.19362248215538977 },
+  { label: 'portrait', cosine: 0.18873917851276295 },
+  { label: 'kiln', cosine: 0.18721484159190888 },
+  { label: 'retriever-photo', cosine: 0.18619619731441187 },
+  { label: 'retriever-sketch', cosine: 0.18344091488988237 },
+  { label: 'kiln-base', cosine: 0.18061373098792424 },
+  { label: 'warehouse', cosine: 0.18018468543873573 },
+  { label: 'fields', cosine: 0.17823550983182126 },
+  { label: 'solar', cosine: 0.1780689381433916 },
+  { label: 'kiln-chimney', cosine: 0.1765518240971708 },
+  { label: 'rocket', cosine: 0.16140149726594658 },
+  { label: 'astronaut', cosine: 0.15514881997187957 }
+]
+captions [
+  {
+    label: 'a rocket launching into the night sky',
+    cosine: 0.26346388033757095
+  },
+  { label: 'fireworks above a city', cosine: 0.2084570187726467 },
+  {
+    label: 'a tall building beside a river',
+    cosine: 0.20410351461186324
+  },
+  { label: 'an airplane on a runway', cosine: 0.19659182570733566 }
+]
+neighbors [
+  { label: 'chelsea', cosine: 0.8100158589811062 },
+  { label: 'newfoundland', cosine: 0.7298869045804361 },
+  { label: 'pug', cosine: 0.7113365209425062 },
+  { label: 'retriever-photo', cosine: 0.6693277793660927 },
+  { label: 'retriever-sketch', cosine: 0.6217677612990851 },
+  { label: 'coffee', cosine: 0.5583863887439174 },
+  { label: 'red-mug', cosine: 0.5485475934432132 },
+  { label: 'blue-mug', cosine: 0.5308416546486724 },
+  { label: 'xray-device', cosine: 0.49512946726764595 },
+  { label: 'xray-before', cosine: 0.4745990926424066 },
+  { label: 'portrait', cosine: 0.44029027390133657 },
+  { label: 'chest-xray', cosine: 0.4312448437342126 },
+  { label: 'portrait-hat', cosine: 0.41946061950661884 },
+  { label: 'rocket', cosine: 0.3786086678878452 },
+  { label: 'fields', cosine: 0.3639603862514738 },
+  { label: 'warehouse', cosine: 0.34194809586724384 },
+  { label: 'kiln', cosine: 0.3212294019254953 },
+  { label: 'solar', cosine: 0.30395046871329057 },
+  { label: 'astronaut', cosine: 0.29761368083005213 },
+  { label: 'kiln-chimney', cosine: 0.2883251285636084 },
+  { label: 'kiln-base', cosine: 0.2532842504038932 }
+]
+hat [
+  { label: 'hat', cosine: 0.08075774646552815 },
+  { label: 'boat', cosine: 0.02540114768587705 },
+  { label: 'cup', cosine: 0.013168625286332137 },
+  { label: 'cat', cosine: 0.00255600286866552 }
+]
+competition [
+  { label: 'a photo of a bird', cosine: 0.21837550593732247 },
+  { label: 'a photo of a car', cosine: 0.21788657425694508 },
+  { label: 'a photo of a cat', cosine: 0.21517554381336884 }
+]
+negation [
+  { label: 'a photo of a cat', cosine: 0.2737274138911494 },
+  { label: 'a photo without a cat', cosine: 0.26989448266221877 },
+  { label: 'a photo of a dog', cosine: 0.22363819876583035 }
+]
+sustainability [
+  {
+    label: 'an aerial image of a brick kiln',
+    cosine: 0.31349190465240656
+  },
+  {
+    label: 'an aerial image of agricultural fields',
+    cosine: 0.2903084871920876
+  },
+  {
+    label: 'an aerial image of industrial warehouses',
+    cosine: 0.2901708099656261
+  },
+  {
+    label: 'an aerial image of a solar farm',
+    cosine: 0.28818182533230813
+  }
+]
+healthcare [
+  { label: 'a chest X-ray', cosine: 0.26726473065418266 },
+  { label: 'a photograph of a person', cosine: 0.23038775182952964 },
+  { label: 'an X-ray of a hand', cosine: 0.22947146085558998 },
+  { label: 'a brain MRI scan', cosine: 0.20474097662008195 }
+]
+sketch [
+  { label: 'a drawing of a dog', cosine: 0.3175767178088835 },
+  { label: 'a drawing of a horse', cosine: 0.2757349375824461 },
+  { label: 'a drawing of a fox', cosine: 0.2639485920274023 },
+  { label: 'a drawing of a cat', cosine: 0.26008480464243544 }
+]
+color-change [
+  { label: 'blue', cosine: 0.11206079497722342 },
+  { label: 'hat', cosine: -0.01172775277566603 },
+  { label: 'cup', cosine: -0.012007044422814058 },
+  { label: 'red', cosine: -0.17775229864475975 }
+]
+chimney [
+  { label: 'chimney', cosine: 0.033635545436482686 },
+  { label: 'tree', cosine: 0.01603369552235514 },
+  { label: 'truck', cosine: 0.005713085571958352 },
+  { label: 'solar panel', cosine: 0.004822404823652585 }
+]
+medical-change [
+  { label: 'hat', cosine: 0.03722363458298857 },
+  { label: 'stethoscope', cosine: 0.031848492975735165 },
+  { label: 'pacemaker', cosine: 0.012699876968528498 },
+  { label: 'rib', cosine: -0.01328932620176251 }
+]
+style-change [
+  { label: 'pencil sketch', cosine: 0.14678030110797857 },
+  { label: 'cat', cosine: -0.002190622938511411 },
+  { label: 'dog', cosine: -0.007807170090286466 },
+  { label: 'photograph', cosine: -0.010521660166314057 }
+]

@@ -1,0 +1,155 @@
+[
+  {
+    "id": "newfoundland",
+    "file": "newfoundland_31.jpg",
+    "title": "Newfoundland",
+    "credit": "Oxford-IIIT Pet \u00b7 CC BY-SA 4.0"
+  },
+  {
+    "id": "Persian",
+    "file": "Persian_98.jpg",
+    "title": "Persian cat",
+    "credit": "Oxford-IIIT Pet \u00b7 CC BY-SA 4.0"
+  },
+  {
+    "id": "pug",
+    "file": "pug_57.jpg",
+    "title": "Pug",
+    "credit": "Oxford-IIIT Pet \u00b7 CC BY-SA 4.0"
+  },
+  {
+    "id": "coffee",
+    "file": "coffee.jpg",
+    "title": "Coffee",
+    "credit": "Rachel Michetti \u00b7 CC0"
+  },
+  {
+    "id": "rocket",
+    "file": "rocket.jpg",
+    "title": "Rocket launch",
+    "credit": "SpaceX \u00b7 CC0"
+  },
+  {
+    "id": "astronaut",
+    "file": "astronaut.jpg",
+    "title": "Astronaut portrait",
+    "credit": "NASA \u00b7 public domain"
+  },
+  {
+    "id": "chelsea",
+    "file": "chelsea.jpg",
+    "title": "Chelsea the cat",
+    "credit": "Stefan van der Walt \u00b7 CC0"
+  },
+  {
+    "id": "portrait",
+    "file": "hat-pair.png",
+    "title": "Portrait \u00b7 generated",
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "panel": 0
+  },
+  {
+    "id": "portrait-hat",
+    "file": "hat-pair.png",
+    "title": "Portrait with hat \u00b7 generated",
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "panel": 1
+  },
+  {
+    "id": "red-mug",
+    "file": "mug-pair.png",
+    "title": "Red mug \u00b7 generated",
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "panel": 0
+  },
+  {
+    "id": "blue-mug",
+    "file": "mug-pair.png",
+    "title": "Blue mug \u00b7 generated",
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "panel": 1
+  },
+  {
+    "id": "kiln",
+    "title": "Brick kiln \u00b7 generated",
+    "file": "remote-sensing-scenes.png",
+    "quad": 0,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "domain": "Sustainability"
+  },
+  {
+    "id": "solar",
+    "title": "Solar farm \u00b7 generated",
+    "file": "remote-sensing-scenes.png",
+    "quad": 1,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "domain": "Sustainability"
+  },
+  {
+    "id": "fields",
+    "title": "Agricultural fields \u00b7 generated",
+    "file": "remote-sensing-scenes.png",
+    "quad": 2,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "domain": "Sustainability"
+  },
+  {
+    "id": "warehouse",
+    "title": "Warehouses \u00b7 generated",
+    "file": "remote-sensing-scenes.png",
+    "quad": 3,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "domain": "Sustainability"
+  },
+  {
+    "id": "retriever-photo",
+    "title": "Dog photograph style \u00b7 generated",
+    "file": "photo-sketch-pair.png",
+    "panel": 0,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "domain": "Natural / sketch"
+  },
+  {
+    "id": "retriever-sketch",
+    "title": "Dog sketch \u00b7 generated",
+    "file": "photo-sketch-pair.png",
+    "panel": 1,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026",
+    "domain": "Natural / sketch"
+  },
+  {
+    "id": "chest-xray",
+    "file": "chest-xray.png",
+    "title": "Chest radiograph",
+    "credit": "Stillwaterising \u00b7 Wikimedia Commons \u00b7 CC0",
+    "domain": "Healthcare"
+  },
+  {
+    "id": "kiln-base",
+    "file": "chimney-pair.png",
+    "title": "Kiln without chimney \u00b7 generated",
+    "panel": 0,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026"
+  },
+  {
+    "id": "kiln-chimney",
+    "file": "chimney-pair.png",
+    "title": "Kiln with chimney \u00b7 generated",
+    "panel": 1,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026"
+  },
+  {
+    "id": "xray-before",
+    "file": "device-pair.png",
+    "title": "Synthetic radiograph without device",
+    "panel": 0,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026"
+  },
+  {
+    "id": "xray-device",
+    "file": "device-pair.png",
+    "title": "Synthetic radiograph with device",
+    "panel": 1,
+    "credit": "AI-generated teaching image \u00b7 OpenAI image tool \u00b7 29 Sep 2026"
+  }
+]

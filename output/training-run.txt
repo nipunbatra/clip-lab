@@ -1,0 +1,7 @@
+{
+  "train_images": 270,
+  "test_images": 90,
+  "parameters": 104201,
+  "seconds": 1.1589341163635254
+}
+Accuracy before 0.1111111119389534 after 0.9888888597488403

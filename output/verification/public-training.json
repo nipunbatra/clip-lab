@@ -1,0 +1,5 @@
+{
+  "metrics": "Held-out accuracy: 11.1% before \u2192 98.9% after. Chance: 11.1%. 104,201 learned parameters.",
+  "prediction": "red circle\n0.769\nred triangle\n0.514\nred square\n0.468\ngreen circle\n0.106\nblue circle\n-0.117\ngreen triangle\n-0.190\ngreen square\n-0.285\nblue triangle\n-0.350\nblue square\n-0.720",
+  "ok": true
+}

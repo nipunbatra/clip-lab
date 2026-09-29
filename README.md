@@ -61,3 +61,9 @@ See `SOURCES.md`, `sources.html`, `images/provenance.json` and `generated-prompt
 - `output/verification/`: browser and execution checks.
 
 Original code is MIT licensed. Public photos retain their own licenses; consult their individual credits. Generated images are clearly labelled and their prompts recorded.
+
+## Verification
+
+All 15 presets have completed real browser WebAssembly inference. The executed notebook contains 11 successful code cells and actual original-model inference plus fresh tiny-model training. Lecture checks separately cover all 87 slide layouts and exact worksheet arithmetic.
+
+`output/verification/ui-check.json` records empty-input, identical-image, stale-recording, phone-overflow and training-toggle checks. To rerun browser inference checks with an optional local Puppeteer installation, use `node scripts/browser-suite.cjs`. If Puppeteer is installed outside this repository, set `CLIP_PUPPETEER_PATH` to that module directory. UI/layout checks use the Playwright CLI with `scripts/ui-check.js`.

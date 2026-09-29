@@ -1,0 +1,11 @@
+{
+  "recordedPresets": 15,
+  "sameImageError": true,
+  "emptyCandidatesError": true,
+  "staleRecordingError": true,
+  "phoneOverflow": [],
+  "trainingChanges": true,
+  "trainingOverflow": false,
+  "sourceOverflow": false,
+  "errors": []
+}

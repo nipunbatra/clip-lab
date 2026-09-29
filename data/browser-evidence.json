@@ -20,7 +20,7 @@
           "share": 0.0028499714808022563
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "labels",
         "title": "Write a new classifier",
@@ -35,7 +35,7 @@
         "question": "Can the same photograph answer a question the old classifier head never had a label for?",
         "try": "Replace these with Newfoundland, pug, and Persian. Then try indoors and outdoors.",
         "lesson": "The description supplies a comparison vector. Changing the candidates does not train or replace the image encoder.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -62,7 +62,7 @@
           "share": 0.003599771202581981
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "attributes",
         "title": "Ask about a property",
@@ -76,9 +76,9 @@
           "a bowl of soup"
         ],
         "question": "Can a description be more specific than an object category?",
-        "try": "Compare ‘a white cup’, ‘a red cup’, and ‘a blue cup’. Keep the photograph fixed.",
+        "try": "Compare \u2018a white cup\u2019, \u2018a red cup\u2019, and \u2018a blue cup\u2019. Keep the photograph fixed.",
         "lesson": "Natural language lets us propose attributes, materials and contexts. These are hypotheses to test, not guaranteed abilities.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -187,25 +187,25 @@
         {
           "label": "rocket",
           "cosine": 0.16156403178880607,
-          "share": 0.000035998856977072235
+          "share": 3.5998856977072235e-05
         },
         {
           "label": "astronaut",
           "cosine": 0.16026646030264993,
-          "share": 0.00003161810939927729
+          "share": 3.161810939927729e-05
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "search",
         "title": "Find a photo with words",
-        "short": "Text → image",
+        "short": "Text \u2192 image",
         "mode": "search",
         "query": "something to drink",
         "question": "Could you find a photo without knowing its filename?",
-        "try": "Search for ‘a pet’, ‘a spacecraft taking off’, then ‘a laptop’. Is the best available result always relevant?",
+        "try": "Search for \u2018a pet\u2019, \u2018a spacecraft taking off\u2019, then \u2018a laptop\u2019. Is the best available result always relevant?",
         "lesson": "Encode the gallery once. A new query needs only a text embedding and dot products. Search always has a nearest item even when nothing matches.",
-        "sourceLabel": "Supabase · image search, 6:54",
+        "sourceLabel": "Supabase \u00b7 image search, 6:54",
         "sourceURL": "https://www.youtube.com/watch?v=S7VZErcTN5Y&t=414s"
       }
     },
@@ -232,11 +232,11 @@
           "share": 0.0016003048114551616
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "captions",
         "title": "Choose a description",
-        "short": "Image → text",
+        "short": "Image \u2192 text",
         "mode": "classify",
         "image": "rocket",
         "candidates": [
@@ -248,7 +248,7 @@
         "question": "Is selecting a sentence the same as writing one?",
         "try": "Write your own competing descriptions. Include one that mentions only part of the scene.",
         "lesson": "CLIP ranks supplied text. It does not generate captions. A caption generator requires additional machinery.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -262,17 +262,17 @@
         {
           "label": "pug",
           "cosine": 0.7364182442485346,
-          "share": 0.00006885079118982087
+          "share": 6.885079118982087e-05
         },
         {
           "label": "newfoundland",
           "cosine": 0.7167711164139413,
-          "share": 0.00000965261567619247
+          "share": 9.65261567619247e-06
         },
         {
           "label": "retriever-photo",
           "cosine": 0.6500406967995543,
-          "share": 1.2206178411170784e-8
+          "share": 1.2206178411170784e-08
         },
         {
           "label": "retriever-sketch",
@@ -360,17 +360,17 @@
           "share": 2.457569271606588e-24
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "neighbors",
         "title": "Find visually related images",
-        "short": "Image → image",
+        "short": "Image \u2192 image",
         "mode": "neighbors",
         "image": "Persian",
         "question": "Can we search without any words at all?",
         "try": "Choose a cat, dog or portrait as the query. Predict the nearest other image before running.",
         "lesson": "The image encoder is useful on its own. Similarity can suggest groups or possible duplicates; it cannot certify that two files are duplicates.",
-        "sourceLabel": "Roboflow · embedding analysis, 10:40 and 17:22",
+        "sourceLabel": "Roboflow \u00b7 embedding analysis, 10:40 and 17:22",
         "sourceURL": "https://www.youtube.com/watch?v=YxJkE6FvGF4&t=640s"
       }
     },
@@ -378,26 +378,22 @@
       "results": [
         {
           "label": "hat",
-          "cosine": 0.09357992035256416,
-          "share": 0.9984751679845969
+          "cosine": 0.09357992035256416
         },
         {
           "label": "boat",
-          "cosine": 0.02688376639684986,
-          "share": 0.0012669518375788183
+          "cosine": 0.02688376639684986
         },
         {
           "label": "cup",
-          "cosine": 0.006702530744190247,
-          "share": 0.00016838375011061057
+          "cosine": 0.006702530744190247
         },
         {
           "label": "cat",
-          "cosine": 0.0003820618371524412,
-          "share": 0.00008949642771346573
+          "cosine": 0.0003820618371524412
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "hat",
         "title": "What changed?",
@@ -411,10 +407,10 @@
           "cat",
           "boat"
         ],
-        "question": "Does ‘with hat’ minus ‘without hat’ point towards the word ‘hat’?",
+        "question": "Does \u2018with hat\u2019 minus \u2018without hat\u2019 point towards the word \u2018hat\u2019?",
         "try": "Swap the images. Then try blue mug minus red mug with the words blue, red, cup, and hat.",
-        "lesson": "Inspired by CodeEmporium’s hat experiment, using our own generated pair. This is an exploratory direction, not a trained change detector. Subtle image differences remain. Cosine is not a probability of the change.",
-        "sourceLabel": "CodeEmporium · hat experiment, 7:25",
+        "lesson": "Inspired by CodeEmporium\u2019s hat experiment, using our own generated pair. This is an exploratory direction, not a trained change detector. Subtle image differences remain. Cosine is not a probability of the change.",
+        "sourceLabel": "CodeEmporium \u00b7 hat experiment, 7:25",
         "sourceURL": "https://www.youtube.com/watch?v=FCDKn-vpn_o&t=445s"
       }
     },
@@ -436,7 +432,7 @@
           "share": 0.23585942780638636
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "competition",
         "title": "Remove the right answer",
@@ -449,9 +445,9 @@
           "a photo of a car"
         ],
         "question": "What happens when every offered label is wrong?",
-        "try": "Run once, then add ‘a photo of a dog’. Compare each cosine with its share of the softmax.",
+        "try": "Run once, then add \u2018a photo of a dog\u2019. Compare each cosine with its share of the softmax.",
         "lesson": "Softmax distributes 100% across the choices you provide. It is not calibrated confidence that the best label is true.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -473,7 +469,7 @@
           "share": 0.0038088892809858624
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "negation",
         "title": "Try to break the model",
@@ -485,10 +481,10 @@
           "a photo without a cat",
           "a photo of a dog"
         ],
-        "question": "Does the word ‘without’ reliably reverse what a phrase means?",
+        "question": "Does the word \u2018without\u2019 reliably reverse what a phrase means?",
         "try": "Try negation, counting, and two descriptions with reversed relations. Save a failure as well as a success.",
         "lesson": "A flexible vocabulary does not guarantee precise compositional reasoning. Report what this checkpoint does on these examples, not universal claims.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -515,7 +511,7 @@
           "share": 0.040906799308264276
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "sustainability",
         "title": "Search an overhead landscape",
@@ -530,8 +526,8 @@
         ],
         "question": "What would a sustainability researcher want to retrieve?",
         "lesson": "The search idea transfers to satellite tiles, but synthetic images are not evidence of field performance. Real deployment needs georeferenced imagery, independent labels, and evaluation across regions and resolutions.",
-        "try": "Compare all four overhead scenes. Try ‘brick kiln’ alone, then a longer description. These scenes are synthetic.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "try": "Compare all four overhead scenes. Try \u2018brick kiln\u2019 alone, then a longer description. These scenes are synthetic.",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -558,7 +554,7 @@
           "share": 0.0023359137174995383
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "healthcare",
         "title": "Recognize the kind of medical image",
@@ -574,7 +570,7 @@
         "question": "Does recognizing an imaging modality mean the model can diagnose a disease?",
         "lesson": "This public radiograph supports a modality-matching lesson, not diagnosis. General CLIP scores are not clinical evidence; medical tasks need domain-specific validation.",
         "try": "Compare modality descriptions first. Notice how different this image is from an everyday photograph.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -601,11 +597,11 @@
           "share": 0.0019250083123618482
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "sketch",
         "title": "Keep the concept; change the style",
-        "short": "Photo → sketch",
+        "short": "Photo \u2192 sketch",
         "mode": "classify",
         "image": "retriever-sketch",
         "candidates": [
@@ -616,8 +612,8 @@
         ],
         "question": "Can the model recognize a dog when the texture of a photograph disappears?",
         "lesson": "This is a small domain-shift experiment. A success here does not establish robustness to every drawing style.",
-        "try": "Switch between the generated photo and sketch. Replace ‘a drawing of’ with ‘a photo of’ and compare.",
-        "sourceLabel": "CLIP · Radford et al., ICML 2021",
+        "try": "Switch between the generated photo and sketch. Replace \u2018a drawing of\u2019 with \u2018a photo of\u2019 and compare.",
+        "sourceLabel": "CLIP \u00b7 Radford et al., ICML 2021",
         "sourceURL": "https://proceedings.mlr.press/v139/radford21a.html"
       }
     },
@@ -625,26 +621,22 @@
       "results": [
         {
           "label": "blue",
-          "cosine": 0.1180093869629936,
-          "share": 0.9999970292021333
+          "cosine": 0.1180093869629936
         },
         {
           "label": "cup",
-          "cosine": -0.013700523127914687,
-          "share": 0.000001905065856021514
+          "cosine": -0.013700523127914687
         },
         {
           "label": "hat",
-          "cosine": -0.01950907051798153,
-          "share": 0.0000010657319489070565
+          "cosine": -0.01950907051798153
         },
         {
           "label": "red",
-          "cosine": -0.18614466828555015,
-          "share": 6.176691710820532e-14
+          "cosine": -0.18614466828555015
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "color-change",
         "title": "A second subtraction experiment",
@@ -660,7 +652,7 @@
         ],
         "question": "Does the embedding difference capture a color change as well as an added object?",
         "lesson": "Difference directions depend on images, normalization and wording. They are exploratory measurements, not guaranteed semantic algebra.",
-        "try": "Reverse the pair. Try ‘a blue mug’ and ‘a red mug’ instead of single words.",
+        "try": "Reverse the pair. Try \u2018a blue mug\u2019 and \u2018a red mug\u2019 instead of single words.",
         "sourceLabel": "Extension of the CodeEmporium subtraction idea",
         "sourceURL": "https://www.youtube.com/watch?v=FCDKn-vpn_o&t=445s"
       }
@@ -669,26 +661,22 @@
       "results": [
         {
           "label": "chimney",
-          "cosine": 0.10547765895127056,
-          "share": 0.9953198311057361
+          "cosine": 0.10547765895127056
         },
         {
           "label": "tree",
-          "cosine": 0.051540696049011514,
-          "share": 0.004523870051440355
+          "cosine": 0.051540696049011514
         },
         {
           "label": "truck",
-          "cosine": 0.015133236612474517,
-          "share": 0.00011867363577590669
+          "cosine": 0.015133236612474517
         },
         {
           "label": "solar panel",
-          "cosine": 0.003646207183224487,
-          "share": 0.000037625207047712044
+          "cosine": 0.003646207183224487
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "chimney",
         "title": "Add a chimney",
@@ -704,7 +692,7 @@
         ],
         "question": "Does adding a chimney produce a useful direction?",
         "lesson": "Synthetic paired scenes test a hypothesis. Shadows and fine details also change; this is not a causal proof or a validated kiln detector.",
-        "sourceLabel": "Our extension of CodeEmporium’s subtraction experiment",
+        "sourceLabel": "Our extension of CodeEmporium\u2019s subtraction experiment",
         "sourceURL": "https://www.youtube.com/watch?v=FCDKn-vpn_o&t=445s",
         "try": "Predict the winner, run, then reverse the pair. Edit the candidate words and save the results."
       }
@@ -713,26 +701,22 @@
       "results": [
         {
           "label": "hat",
-          "cosine": 0.02774713378842503,
-          "share": 0.8555423521931204
+          "cosine": 0.02774713378842503
         },
         {
           "label": "stethoscope",
-          "cosine": 0.003523663675473864,
-          "share": 0.07589786740604704
+          "cosine": 0.003523663675473864
         },
         {
           "label": "pacemaker",
-          "cosine": 0.0018934560349264445,
-          "share": 0.06448082047045003
+          "cosine": 0.0018934560349264445
         },
         {
           "label": "rib",
-          "cosine": -0.025711801821476178,
-          "share": 0.004078959930382539
+          "cosine": -0.025711801821476178
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "medical-change",
         "title": "Add a visible medical device",
@@ -748,7 +732,7 @@
         ],
         "question": "Does the difference emphasize the added device?",
         "lesson": "Both radiographs are generated illustrations. Anatomy and device placement are approximate. This measures concept matching on synthetic pictures, not diagnostic or clinical performance.",
-        "sourceLabel": "Our extension of CodeEmporium’s subtraction experiment",
+        "sourceLabel": "Our extension of CodeEmporium\u2019s subtraction experiment",
         "sourceURL": "https://www.youtube.com/watch?v=FCDKn-vpn_o&t=445s",
         "try": "Predict the winner, run, then reverse the pair. Edit the candidate words and save the results."
       }
@@ -757,26 +741,22 @@
       "results": [
         {
           "label": "pencil sketch",
-          "cosine": 0.138658188917058,
-          "share": 0.9999985928422134
+          "cosine": 0.138658188917058
         },
         {
           "label": "cat",
-          "cosine": -0.0032619967625495596,
-          "share": 6.862526551085406e-7
+          "cosine": -0.0032619967625495596
         },
         {
           "label": "dog",
-          "cosine": -0.006325334968683794,
-          "share": 5.051786056054141e-7
+          "cosine": -0.006325334968683794
         },
         {
           "label": "photograph",
-          "cosine": -0.014834340161318743,
-          "share": 2.1572652594817658e-7
+          "cosine": -0.014834340161318743
         }
       ],
-      "runtime": "Live browser inference · WebAssembly · q8",
+      "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
       "experiment": {
         "id": "style-change",
         "title": "Change style, keep the dog",
@@ -792,7 +772,7 @@
         ],
         "question": "Does subtracting the photo from the sketch emphasize style?",
         "lesson": "This subtraction includes background and rendering changes. Compare original image-to-text matching with the difference direction; a successful guess does not isolate a causal concept.",
-        "sourceLabel": "Our extension of CodeEmporium’s subtraction experiment",
+        "sourceLabel": "Our extension of CodeEmporium\u2019s subtraction experiment",
         "sourceURL": "https://www.youtube.com/watch?v=FCDKn-vpn_o&t=445s",
         "try": "Predict the winner, run, then reverse the pair. Edit the candidate words and save the results."
       }

@@ -1,4 +1,5 @@
 async page => {
+ await page.route('**/*',route=>route.continue());
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  const failures=[];const check=(v,s)=>{if(!v)failures.push(s)};
  await page.setViewportSize({width:1440,height:1050});
@@ -23,5 +24,6 @@ async page => {
  await page.setViewportSize({width:390,height:844});
  for(const id of ids){await page.evaluate(id=>location.hash=id,id);await page.waitForFunction(id=>window.clipLab.current.id===id,id);check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),id+' mobile width');}
  await page.screenshot({path:'output/verification/guidance-style-phone.png',fullPage:true});
+ await page.unroute('**/*');
  return {examples:ids.length,curated:8,failures,errors};
 }

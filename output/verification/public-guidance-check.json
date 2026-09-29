@@ -1,0 +1,9 @@
+{
+  "title": "Change the mug from red to blue",
+  "change": "THE SUPPLIED IMAGE PAIR\n\nIntended change\nThe mug\u2019s surface color changes from red to blue.\nIntended to stay fixed\nThe mug shape, handle, position, viewpoint, tabletop, and background are intended to stay the same.\nAlso worth checking\nGenerated reflections, edges, and background details can differ too. The measured direction contains every encoded difference, not only color.\n\nCLIP encodes these supplied images separately. It does not edit a picture, update its weights, or receive an instruction to make this change.",
+  "steps": 3,
+  "route": 8,
+  "editedNotice": true,
+  "hatTitle": "What if we change?",
+  "hatSubtitleHidden": true
+}

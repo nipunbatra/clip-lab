@@ -1,0 +1,92 @@
+{
+  "before": {
+    "model": "Xenova/clip-vit-base-patch32",
+    "revision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+    "created": "2026-09-29T09:10:39.319Z",
+    "temperature": null,
+    "results": [
+      {
+        "label": "blue",
+        "cosine": 0.11714380349622515
+      },
+      {
+        "label": "cup",
+        "cosine": -0.014840524866888546
+      },
+      {
+        "label": "hat",
+        "cosine": -0.020708885560677733
+      },
+      {
+        "label": "red",
+        "cosine": -0.19402540568453497
+      }
+    ],
+    "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
+    "experiment": {
+      "id": "color-change",
+      "title": "Change the mug from red to blue",
+      "short": "Color change",
+      "mode": "difference",
+      "image": "red-mug",
+      "second": "blue-mug",
+      "candidates": [
+        "blue",
+        "red",
+        "cup",
+        "hat"
+      ],
+      "question": "Keep the mug and scene similar. Which word best describes the change?",
+      "lesson": "Difference directions depend on images, normalization and wording. They are exploratory measurements, not guaranteed semantic algebra.",
+      "try": "Reverse the pair. Try \u2018a blue mug\u2019 and \u2018a red mug\u2019 instead of single words.",
+      "sourceLabel": "Extension of the CodeEmporium subtraction idea",
+      "sourceURL": "https://www.youtube.com/watch?v=FCDKn-vpn_o&t=445s"
+    }
+  },
+  "after": {
+    "model": "Xenova/clip-vit-base-patch32",
+    "revision": "d15189d7028b43f1d3e65039190477f6af591c2a",
+    "created": "2026-09-29T09:10:39.404Z",
+    "temperature": null,
+    "results": [
+      {
+        "label": "red",
+        "cosine": 0.19402540568453497
+      },
+      {
+        "label": "hat",
+        "cosine": 0.020708885560677733
+      },
+      {
+        "label": "cup",
+        "cosine": 0.014840524866888546
+      },
+      {
+        "label": "blue",
+        "cosine": -0.11714380349622515
+      }
+    ],
+    "runtime": "Live browser inference \u00b7 WebAssembly \u00b7 q8",
+    "experiment": {
+      "id": "color-change",
+      "title": "Change the mug from red to blue",
+      "short": "Color change",
+      "mode": "difference",
+      "image": "blue-mug",
+      "second": "red-mug",
+      "candidates": [
+        "blue",
+        "red",
+        "cup",
+        "hat"
+      ],
+      "question": "Keep the mug and scene similar. Which word best describes the change?",
+      "lesson": "Difference directions depend on images, normalization and wording. They are exploratory measurements, not guaranteed semantic algebra.",
+      "try": "Reverse the pair. Try \u2018a blue mug\u2019 and \u2018a red mug\u2019 instead of single words.",
+      "sourceLabel": "Extension of the CodeEmporium subtraction idea",
+      "sourceURL": "https://www.youtube.com/watch?v=FCDKn-vpn_o&t=445s"
+    }
+  },
+  "maxSignReversalError": 0,
+  "passed": true
+}

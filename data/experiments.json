@@ -78,8 +78,8 @@
   },
   {
     "id": "hat",
-    "title": "What changed?",
-    "short": "The hat experiment",
+    "title": "What if we change?",
+    "short": "What if we change?",
     "mode": "difference",
     "image": "portrait",
     "second": "portrait-hat",
@@ -89,7 +89,7 @@
       "cat",
       "boat"
     ],
-    "question": "Does \u2018with hat\u2019 minus \u2018without hat\u2019 point towards the word \u2018hat\u2019?",
+    "question": "",
     "try": "Swap the images. Then try blue mug minus red mug with the words blue, red, cup, and hat.",
     "lesson": "Inspired by CodeEmporium\u2019s hat experiment, using our own generated pair. This is an exploratory direction, not a trained change detector. Subtle image differences remain. Cosine is not a probability of the change.",
     "sourceLabel": "CodeEmporium \u00b7 hat experiment, 7:25",
@@ -185,7 +185,7 @@
   },
   {
     "id": "color-change",
-    "title": "A second subtraction experiment",
+    "title": "Change the mug from red to blue",
     "short": "Color change",
     "mode": "difference",
     "image": "red-mug",
@@ -196,7 +196,7 @@
       "cup",
       "hat"
     ],
-    "question": "Does the embedding difference capture a color change as well as an added object?",
+    "question": "Keep the mug and scene similar. Which word best describes the change?",
     "lesson": "Difference directions depend on images, normalization and wording. They are exploratory measurements, not guaranteed semantic algebra.",
     "try": "Reverse the pair. Try \u2018a blue mug\u2019 and \u2018a red mug\u2019 instead of single words.",
     "sourceLabel": "Extension of the CodeEmporium subtraction idea",

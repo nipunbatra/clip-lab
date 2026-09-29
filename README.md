@@ -40,6 +40,14 @@ npm run evidence
 
 This uses ONNX Runtime on Node CPU and writes `data/evidence.json`. Browser measurements are separately saved in `data/browser-evidence.json`. The original Python notebook is a third, explicitly identified runtime.
 
+## Using an example
+
+Open **Usage tips & a guided first visit** for three specific steps and eight hand-picked examples. Predict before running. Every change example spells out the intended edit, what should remain fixed, and confounding differences in the generated pair. **Swap before / after** reverses the image order; a new live run negates each score when the embeddings and candidate words stay fixed. Pair descriptions explicitly refer to the original preset when you edit the inputs.
+
+Under **What happens under the hood?**, each task explains its actual encoder inputs, comparisons and outputs. Difference examples give the full normalization/subtraction formula and explain signed scores. CLIP does not make an image edit or train during a change experiment. **What should we learn?** retains the observed successes and failures.
+
+Usage copy and the curated route live in `data/guidance.json`. The companion lecture includes all 15 examples as exact-input/recorded-output pairs before the architecture, then revisits the mechanism after cosine similarity.
+
 ## Teaching route
 
 1. Recall the previous ViT’s fixed classifier head.
@@ -64,6 +72,8 @@ Original code is MIT licensed. Public photos retain their own licenses; consult 
 
 ## Verification
 
-All 15 presets have completed real browser WebAssembly inference. The executed notebook contains 11 successful code cells and actual original-model inference plus fresh tiny-model training. Lecture checks separately cover all 87 slide layouts and exact worksheet arithmetic.
+All 15 presets have completed real browser WebAssembly inference. The executed notebook contains 11 successful code cells and actual original-model inference plus fresh tiny-model training. Lecture checks separately cover all 112 slide layouts and exact worksheet arithmetic.
 
 `output/verification/ui-check.json` records empty-input, identical-image, stale-recording, phone-overflow and training-toggle checks. To rerun browser inference checks with an optional local Puppeteer installation, use `node scripts/browser-suite.cjs`. If Puppeteer is installed outside this repository, set `CLIP_PUPPETEER_PATH` to that module directory. UI/layout checks use the Playwright CLI with `scripts/ui-check.js`.
+
+`output/verification/guidance-check.json` covers all 15 guides, all five pair descriptions and swap controls, recorded-run guards and phone layouts. `output/verification/swap-live-check.json` records an actual live forward/reverse color pair and exact sign reversal.

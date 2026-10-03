@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "device": "webgpu",
+  "dtype": "fp32",
+  "modelDelivery": "Pinned local weights placed in browser cache",
+  "firstScores": [
+    {
+      "id": "text:0",
+      "label": "a photo of a cat",
+      "cosine": 0.2857132613302038
+    },
+    {
+      "id": "text:1",
+      "label": "a photo of a dog",
+      "cosine": 0.2295597002643347
+    },
+    {
+      "id": "text:2",
+      "label": "a photo of a rocket",
+      "cosine": 0.21466713181678537
+    }
+  ],
+  "searchTop": [
+    {
+      "id": "image:coffee",
+      "label": "Coffee",
+      "imageId": "coffee",
+      "cosine": 0.24057603908123154
+    },
+    {
+      "id": "image:blue-mug",
+      "label": "Blue mug · generated",
+      "imageId": "blue-mug",
+      "cosine": 0.23671126007736487
+    },
+    {
+      "id": "image:red-mug",
+      "label": "Red mug · generated",
+      "imageId": "red-mug",
+      "cosine": 0.23145086671548723
+    }
+  ],
+  "changeSignReversal": true,
+  "unitVectors": true,
+  "customDescription": true,
+  "localUpload": true,
+  "mobileWidth": 390,
+  "errors": []
+}

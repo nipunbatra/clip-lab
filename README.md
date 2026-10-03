@@ -3,6 +3,7 @@
 A teaching lab that starts with applications, then makes the image–text comparison inspectable. Public photographs and labelled generated pairs cover open-vocabulary classification, search, similarity, hats, colour, chimneys, medical imagery and style changes.
 
 - [Live app](https://nipunbatra.github.io/clip-lab/)
+- [Pretrained CLIP playground](https://nipunbatra.github.io/clip-lab/playground/): 11 questions, 22 sample images, uploads, WebGPU inference and a full vector inspector.
 - [Before / after training](https://nipunbatra.github.io/clip-lab/training.html)
 - [Executed notebook](notebooks/clip-lab.ipynb)
 - [Sources and credits](https://nipunbatra.github.io/clip-lab/sources.html)

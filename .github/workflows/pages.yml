@@ -23,7 +23,7 @@ jobs:
         run: |
           mkdir _site
           cp *.html *.css app.js worker.js engine.js learn.js learn-worker.js generated-prompts.md _site/
-          cp -R images data notebooks scripts loss-tutorial _site/
+          cp -R images data notebooks scripts loss-tutorial playground _site/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: _site

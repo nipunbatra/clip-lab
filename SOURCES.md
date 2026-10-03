@@ -17,3 +17,11 @@
 - [Roboflow — CLIP, T-SNE, and UMAP](https://www.youtube.com/watch?v=YxJkE6FvGF4&t=640s): From 10:40: image embeddings for dataset exploration; from 17:22: similarity and possible duplicates. Our app implements nearest-image inspection. It does not claim that similar embeddings prove duplication, or that a 2D projection preserves all distances.
 
 Image licenses, creators and checksums: [provenance.json](images/provenance.json). Generation record: [generated-prompts.md](generated-prompts.md).
+
+## Calculation worksheet and linked tutorial, October 2026
+
+`learn.html` uses the same symmetric contrastive objective from Radford et al., 2021, Figure 3. Its 2D vectors are chosen teaching inputs. Its live mode uses the separately credited OpenAI → Xenova ONNX → Transformers.js pipeline. [WebGPU runtime guide](https://huggingface.co/docs/transformers.js/guides/webgpu).
+
+`loss-tutorial/` is a snapshot of the original course interactive created in **Build interactive CLIP loss tutorial**, source project `~/git/interactives/clip-loss`, 3 October 2026. Its original SVG illustrations and four app files are unchanged. Source SHA-256 values and all derived numerical examples are in `data/tutorial-example.json`. It optimizes raw chosen 3D vectors at fixed temperature, rather than claiming to train a full image/text encoder. Its README includes the original paper and implementation references.
+
+`data/lecture-prompts.json` records the seven exact prompt embeddings for the rebuilt lecture's menu and wording experiments. Runtime, precision and pinned revision are recorded in that file.

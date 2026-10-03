@@ -1,0 +1,17 @@
+{
+  "cpuFallback": {
+    "runtime": "JavaScript CPU",
+    "loss": 0.5200275888645023
+  },
+  "cancelWorks": true,
+  "mobile": true,
+  "tutorial": {
+    "loss": 0.5605264020425856,
+    "stage": 8,
+    "checks": {
+      "passed": true,
+      "checks": 225,
+      "initialLoss": 0.5605264020425856
+    }
+  }
+}

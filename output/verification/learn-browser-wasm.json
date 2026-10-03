@@ -1,0 +1,32 @@
+{
+  "modelFiles": "Pre-cached original pinned weights; inference executes in browser",
+  "toyRuntime": "WebGPU compute",
+  "toyLoss": 0.5200275883913223,
+  "mobile": {
+    "w": 390,
+    "doc": 390
+  },
+  "realRuntime": {
+    "device": "wasm",
+    "dtype": "q8"
+  },
+  "cosines": [
+    [
+      0.2476086633446111,
+      0.21328888986510391,
+      0.24711341048421714
+    ],
+    [
+      0.22321516130209496,
+      0.2938615146673381,
+      0.19572892989745935
+    ],
+    [
+      0.22325068613214794,
+      0.20039130042075806,
+      0.28950875451500996
+    ]
+  ],
+  "match": "“a photo of a dog” · cosine 0.268837 against image 1",
+  "errors": []
+}

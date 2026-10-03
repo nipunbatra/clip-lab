@@ -2,7 +2,7 @@
   "passed": true,
   "device": "wasm",
   "dtype": "q8",
-  "modelDelivery": "Pinned local weights placed in browser cache",
+  "modelDelivery": "Hugging Face network",
   "firstScores": [
     {
       "id": "text:0",
@@ -23,13 +23,13 @@
   "searchTop": [
     {
       "id": "image:red-mug",
-      "label": "Red mug · generated",
+      "label": "Red mug \u00b7 generated",
       "imageId": "red-mug",
       "cosine": 0.2578900276552551
     },
     {
       "id": "image:blue-mug",
-      "label": "Blue mug · generated",
+      "label": "Blue mug \u00b7 generated",
       "imageId": "blue-mug",
       "cosine": 0.25111826793018643
     },
@@ -45,5 +45,6 @@
   "customDescription": true,
   "localUpload": true,
   "mobileWidth": 390,
-  "errors": []
+  "errors": [],
+  "testedUrl": "https://nipunbatra.github.io/clip-lab/playground/"
 }

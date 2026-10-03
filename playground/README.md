@@ -45,3 +45,5 @@ The existing Pages workflow copies this directory alongside the shared gallery a
 By default, the test warms the browser cache from this repo's exact pinned `.cache/` model files, then executes actual browser inference. `CLIP_COLD_DOWNLOAD=1` uses normal Hugging Face delivery. `CLIP_TEST_URL` can point at the published page's origin and base path, and `CLIP_BROWSER_PROFILE` chooses a browser profile. Reports distinguish model delivery from execution. Reports and screenshots live in `output/verification/playground/`.
 
 Verified on 3 October 2026 with actual browser WebGPU/fp32 and WebAssembly/q8 inference. Both backends passed the end-to-end checks with no page errors. Desktop and phone screenshots were inspected. The math check also verifies all 64 windows of a 512-coordinate dot product.
+
+The public GitHub Pages URL also passed the complete CPU test in a fresh browser profile, using a normal Hugging Face download. `scripts/playground-export-check.cjs` verifies the actual JSON download, the 77-token limit and rejection of identical images.
